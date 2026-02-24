@@ -13,7 +13,7 @@ async function enviarPregunta() {
 
     try {
 
-        const response = await fetch("/preguntar", {
+        const response = await fetch("/api/preguntar", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
